@@ -1,3 +1,17 @@
+@media (max-width: 600px){
+    .logo{
+        width: 200px;
+    }
+    .social-icon{
+        width: 50px;
+    }
+    .footer-content{
+        width: 100%;
+    }
+    .footer-content div{
+        display: inline-block;
+    }
+}
 .logo{
     width: 100px;
     padding: 5px;
