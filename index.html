@@ -1,70 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Onegait</title>
-    <link rel="stylesheet" href="assets/stylesheet/style.css">
-</head>
+<title>Onegait</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/stylesheet/w3.css">
+<link rel="stylesheet" href="assets/stylesheet/font.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 <body>
-    <nav>
-        <a href="index.html"><img class="logo" src="assets/images/Onegait-small.jpg" alt="Onegait"></a>
-        <ul>
-            <li><a href="#"><img class="social-icon" src="assets/images/instagram.png" alt="Instagram"></a></li>
-            <li><a href="#"><img class="social-icon" src="assets/images/facebook.png" alt="Facebook"></a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <h2>What is <strong>ONEGAIT</strong>?</h2>
-        <p>
-            <strong>ONEGAIT</strong> is a developing online recruitment platform that acts as a bridge for companies and job applicants to make their recruitment process quickly and 
-            efficiently.By having a standardized test i.e., conducting tests on various domains such as Quantitative Aptitude, Logical Reasoning, Programming, 
-            Technical MCQs, and other core-based sections. This test will be conducted across various colleges and even by registering online candidates can take 
-            the test individually. Scores will be generated and reports will be updated in the candidate’s profile. Based on the companies percentage criteria 
-            candidates can apply for further rounds. The eligible candidates appear for further rounds.
-        </p>
-        <h2>How <strong>ONEGAIT</strong> works?</h2>
-            <div class="indent">
-                <h3 id="Corporate">For Corporates:</h3>
-            <p>
-                <strong>ONEGAIT</strong> team conducts online tests across various colleges which can test their knowledge from quantitative aptitude to their core field. This score 
-                can be used by the corporates to shortlist based on the candidate’s percentage. The shortlisted students can be allowed to apply for your company’s 
-                further rounds. The corporate can also use our platform for conducting a customized test for them i.e., you can conduct an online test with your own 
-                question pattern across colleges and continue your recruitment process. Use <strong>ONEGAIT</strong> to find the candidate you are looking for, by spending low cost 
-                and time. 
-            </p>
-            <h3 id="Institute">For Institutes:</h3>
-            <p>
-                Institutes can allow their students to take tests online on their premises which will be an opportunity for their students to get placed in various MNC’s. 
-                Institutes can also use this platform to conduct a test on your own test pattern which can help institutes to test their students’ knowledge. 
-                We help institutes to measure, improve and access the student knowledge by conducting standardized test i.e., conducting tests on various domains 
-                such as Quantitative Aptitude, Logical Reasoning, Programming, Technical MCQs, and other core-based sections. <strong>'Continuous Evaluation'</strong> program helps 
-                institutions to build the skill of your students to compete in the industry and set a benchmark. 
-            </p>
-            <h3 id="Candidate">For Candidates:</h3>
-            <p>
-                Candidates can use this platform efficiently so that they can get placed in various top MNC’s. This test can be taken in their respective college. Once 
-                a test is taken a profile is created and scores are updated. Based on this score students can apply for the job post in their profile. This score is 
-                valid for one year, students can use this score to apply for various jobs. Candidates can also retake the test if they have a poor score. The new score 
-                will be updated and based on that score candidates can apply for the job post.
-            </p>
-            </div>
+
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#corporate" class="w3-bar-item w3-button w3-padding-large w3-hide-small">For Corporate</a>
+        <a href="#institutes" class="w3-bar-item w3-button w3-padding-large w3-hide-small">For Institute</a>
+        <a href="#candidate" class="w3-bar-item w3-button w3-padding-large w3-hide-small">For Candidates</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
     </div>
-    <footer>
-        <div class="footer-content">
-            <div>
-                <h4>Contact Us</h4>
-                <p>Mail: <a href="mailto:info@onegait.in">info@onegait.in</a></p>
-                <p>Ikram: +91 9965489237</p>
-                <p>Thilak: +91 9003391853</p>
-            </div>
-            <div>
-                <h4>Customers</h4>
-                <p>Corporates</p>
-                <p>Institutes</p>
-                <p>Candidates</p>
+</div>
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+    <a href="#corporate" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">For Corporate</a>
+    <a href="#institutes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">For Institute</a>
+    <a href="#candidate" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">For Candidates</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+</div>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <div class="mySlides w3-display-container w3-center" style="display:block;">
+        <img src="assets/images/Onegait-full.jpg" style="width:100%;">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Onegait</h3>
+            <p><b>Get ready to hire / be hired!</b></p>   
+        </div>  
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+        <h2 class="w3-wide">What is ONEGAIT?</h2>
+        <p class="w3-justify">ONEGAIT is a developing online recruitment platform that acts as a bridge for companies and job applicants to make their recruitment process 
+        quickly and efficiently.By having a standardized test i.e., conducting tests on various domains such as Quantitative Aptitude, Logical Reasoning, Programming, 
+        Technical MCQs, and other core-based sections. This test will be conducted across various colleges and even by registering online candidates can take the test 
+        individually. Scores will be generated and reports will be updated in the candidate’s profile. Based on the companies percentage criteria candidates can apply 
+        for further rounds. The eligible candidates appear for further rounds.</p>
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+        <h1 class="w3-wide">How it works?</h1>
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="corporate">
+        <h2 class="w3-wide">For Corporate</h2>
+        <p class="w3-justify">ONEGAIT team conducts online tests across various colleges which can test their knowledge from quantitative aptitude to their core field. 
+        This score can be used by the corporates to shortlist based on the candidate’s percentage. The shortlisted students can be allowed to apply for your company’s 
+        further rounds. The corporate can also use our platform for conducting a customized test for them i.e., you can conduct an online test with your own question 
+        pattern across colleges and continue your recruitment process. Use ONEGAIT to find the candidate you are looking for, by spending low cost and time.</p>
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="institutes">
+        <h2 class="w3-wide">For Institute</h2>
+        <p class="w3-justify">Institutes can allow their students to take tests online on their premises which will be an opportunity for their students to get placed 
+        in various MNC’s. Institutes can also use this platform to conduct a test on your own test pattern which can help institutes to test their students’ knowledge. 
+        We help institutes to measure, improve and access the student knowledge by conducting standardized test i.e., conducting tests on various domains such as 
+        Quantitative Aptitude, Logical Reasoning, Programming, Technical MCQs, and other core-based sections. 'Continuous Evaluation' program helps institutions to 
+        build the skill of your students to compete in the industry and set a benchmark.</p>
+    </div>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="candidate">
+        <h2 class="w3-wide">For Candidates</h2>
+        <p class="w3-justify">Candidates can use this platform efficiently so that they can get placed in various top MNC’s. This test can be taken in their respective 
+        college. Once a test is taken a profile is created and scores are updated. Based on this score students can apply for the job post in their profile. This score 
+        is valid for one year, students can use this score to apply for various jobs. Candidates can also retake the test if they have a poor score. The new score will 
+        be updated and based on that score candidates can apply for the job post.</p>
+    </div>
+  
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center">CONTACT</h2>
+        <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+                <i class="fa fa-phone" style="width:30px"></i> Ikram: +91 9965489237<br>
+                <i class="fa fa-phone" style="width:30px"></i> Thilak: +91 9003391853<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: <a href="mailto:onegait.info@gmail.com">onegait.info@gmail.com</a><br>
             </div>
         </div>
-        <p style="text-align: center;">Copyright &copy; to Onegait.in</p>
-    </footer>
+    </div>
+
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <img class="fa" style="width:5%;" src="assets/images/facebook.png" alt="Facebook">
+    <img class="fa" style="width:5%;" src="assets/images/instagram.png" alt="Instagram">
+</footer>
+
+<script>
+
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } 
+    else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+</script>
+
 </body>
 </html>
